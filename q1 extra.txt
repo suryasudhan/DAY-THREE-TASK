@@ -1,0 +1,24 @@
+q.1
+
+let object1 = {name: "person 1", age : 5};
+   
+      
+let object2 = {age :5, name: "person 1"}
+
+lets covert object to json 
+
+let json1= json.stringify(object1);
+//console.log(json1);
+let json2= json.stringify(object2);
+//console.log(json2);
+
+if (json1===json2)
+ {   
+   console.log("both are equal");
+}
+elese 
+{
+    console.log("both are different");
+}
+
+output= not equal
